@@ -1,0 +1,14 @@
+Let say the max player for game state is 1.
+Initial score for both the player is 0.
+
+The scores for quadruple have been defined as follows:
+1100 & 2200: +2
+1110 & 2220: +3
+1111 & 2222: +4
+
+Function getScore(int player) searches for either 1111 or 2222 depending upon the player currently playing and assigns a score of 4 to the player.
+Function get3Score(int player) searches for either 1110 or 2220 depending upon the player currently playing and assigns a score of 3 to the player.
+Function get2Score(int player) searches for either 1100 or 2200 depending upon the player currently playing and assigns a score of 2 to the player.
+
+Then the utility function returns the following: 
+Score of player 2 - score of player 1
